@@ -1,0 +1,10 @@
+# humanstxt.org/
+/* TEAM */
+	Dev:longchiwen	
+	Twitter: @longchiwen
+	From:Slovenia
+
+/* SITE */	
+	Language: Slovenian
+	Doctype:HTML5
+	IDE: Notepad++, Photoshop, VS Code
