@@ -1,6 +1,6 @@
 {
   "name": "petsave",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Save pet",
   "main": "server.js",
   "engines": {
