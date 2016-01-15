@@ -1,6 +1,4 @@
-# [Pet Save](http://petsave.azurewebsites.net) [![Code Climate](https://codeclimate.com/github/longchiwen/petsave/badges/gpa.svg)](https://codeclimate.com/github/longchiwen/petsave) [![Build Status](https://travis-ci.org/longchiwen/petsave.svg?branch=master)](https://travis-ci.org/longchiwen/petsave)
-
-[![dependencies](https://david-dm.org/longchiwen/petsave.svg)](https://david-dm.org/longchiwen/petsave)
+# [Pet Save](http://petsave.azurewebsites.net) [![Code Climate](https://codeclimate.com/github/longchiwen/petsave/badges/gpa.svg)](https://codeclimate.com/github/longchiwen/petsave) [![Build Status](https://travis-ci.org/longchiwen/petsave.svg?branch=master)](https://travis-ci.org/longchiwen/petsave) [![dependencies](https://david-dm.org/longchiwen/petsave.svg)](https://david-dm.org/longchiwen/petsave)
 
 
 ## Prerequisites ##
