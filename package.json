@@ -1,12 +1,13 @@
 {
   "name": "petsave",
   "version": "1.0.0",
-  "description": "Save pet",
+  "description": "Save a pet",
   "main": "server.js",
   "engines": {
     "node": ">=5.0"
   },
   "scripts": {
+    "postinstall":"node ./tools/postinstall.js",
     "lint": "eslint src tools",
     "test": "npm run lint",
     "build": "webpack --config ./tools/webpack.config.js",
@@ -31,6 +32,7 @@
   },
   "homepage": "https://github.com/longchiwen/petsave#readme",
   "dependencies": {
+    "dotenv": "^1.2.0",
     "express": "^4.13.3"
   },
   "devDependencies": {
