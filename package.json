@@ -9,7 +9,7 @@
   "scripts": {
     "postinstall": "node ./tools/postinstall.js",
     "lint": "eslint",
-    "test": "npm run lint -- src tools",
+    "test": "npm run lint -- src tools server.js",
     "build": "webpack --config ./tools/webpack.config.js",
     "start": "node ./server.js"
   },
@@ -47,9 +47,11 @@
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.15.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "history": "^2.0.0-rc2",
     "node-sass": "^3.4.2",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
+    "react-router": "^2.0.0-rc5",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.11"

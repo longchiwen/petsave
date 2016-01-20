@@ -1,12 +1,14 @@
 // load configuration
 require("dotenv").config();
 
-var express = require("express");
-var process = require("process");
-var path = require("path");
-var app =  express();
-const PORT = process.env.PORT||3000;
-const HOST = process.env.HOST||"localhost";
+var express = require("express"),
+    process = require("process"),
+    path = require("path"),
+    app =  express();
+    
+const PORT = process.env.PORT||3000,
+    HOST = process.env.HOST||"localhost";
+    //ENV = process.env.NODE_ENV||ENV_DEV;
 
 app.use("/assets/js",express.static(path.resolve(__dirname,"./dist/assets/js")));
 app.use("/assets/css",express.static(path.resolve(__dirname,"./dist/assets/css")));
@@ -17,5 +19,5 @@ app.get("*", function (req, res) {
 
 app.listen(PORT,HOST, function () {
     /* eslint-disable no-console */
-    console.log("Express server started on %s:%s",HOST, PORT);
+    console.log("Express server started on http://%s:%s. CRTL+C to exit.",HOST, PORT);
 });
